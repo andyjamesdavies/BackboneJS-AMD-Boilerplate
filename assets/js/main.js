@@ -16,7 +16,7 @@
 		urlArgs: "bust=" +  (new Date()).getTime()	//cache-busting for development
 	});
 	
-	require(['application'],
+	require(['app'],
 		function(App) {
 			App.initialize();
 		}

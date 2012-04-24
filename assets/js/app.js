@@ -6,9 +6,8 @@ define([
 		
 		return {
 			initialize : function() {
-
 				var app = new MainView({
-					el : document.getElementById('content')
+					el : document.getElementById('container')
 				});
 			}
 		};
