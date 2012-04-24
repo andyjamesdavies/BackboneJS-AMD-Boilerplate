@@ -1,14 +1,10 @@
 define([
-		'underscoreLoader',
 		'backboneLoader'
 	],
-	function(
-		_,
-		Backbone
-	) {
+	function(Backbone) {
 		"use strict";
 		
-		return Backbone.Collection.extend({
+		return Backbone.Model.extend({
 			initialize : function() {
 				
 			}

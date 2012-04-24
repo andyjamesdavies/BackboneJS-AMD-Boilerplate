@@ -3,11 +3,7 @@ define([
 		'backboneLoader',
 		'text!templates/main.html'
 	],
-	function(
-		_,
-		Backbone,
-		MainTemplate
-	) {
+	function(_, Backbone, MainTemplate) {
 		"use strict";
 		
 		return Backbone.View.extend({

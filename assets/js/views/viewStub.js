@@ -3,11 +3,7 @@ define([
 		'underscoreLoader',
 		'backboneLoader',
 	],
-	function(
-		$,
-		_,
-		Backbone
-	) {
+	function($, _, Backbone) {
 		"use strict";
 
 		return Backbone.View.extend({

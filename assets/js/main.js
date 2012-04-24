@@ -12,7 +12,7 @@
 			backbone : libsPath + 'backbone',
 			backboneLoader : libsPath + 'backbone-loader'
 		},
-		baseUrl : 'src/js',
+		baseUrl : 'assets/js',
 		urlArgs: "bust=" +  (new Date()).getTime()	//cache-busting for development
 	});
 	
