@@ -1,3 +1,4 @@
+/*global require*/
 (function() {
 	"use strict";
 	
@@ -6,11 +7,8 @@
 	require.config({
 		paths : {
 			jquery : libsPath + 'jquery',		//return module but also keeps it in the global scope
-			jqueryLoader : libsPath + 'jquery-loader',	//loads module and removes it from the global scope
 			underscore : libsPath + 'underscore',
-			underscoreLoader: libsPath + 'underscore-loader',
-			backbone : libsPath + 'backbone',
-			backboneLoader : libsPath + 'backbone-loader'
+			backbone : libsPath + 'backbone'
 		},
 		baseUrl : 'assets/js',
 		urlArgs: "bust=" +  (new Date()).getTime()	//cache-busting for development

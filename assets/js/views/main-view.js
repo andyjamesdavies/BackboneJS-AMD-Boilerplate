@@ -1,9 +1,11 @@
+/*global $, _, Backbone*/
 define([
-		'underscoreLoader',
-		'backboneLoader',
+		'jquery',
+		'underscore',
+		'backbone',
 		'text!templates/main.html'
 	],
-	function(_, Backbone, MainTemplate) {
+	function(JqueryLib, UnderscoreLib, BackboneLib, MainTemplate) {
 		"use strict";
 		
 		return Backbone.View.extend({

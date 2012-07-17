@@ -1,7 +1,9 @@
+/*global _, Backbone*/
 define([
-		'backboneLoader'
+		'underscore',
+		'backbone'
 	],
-	function(Backbone) {
+	function(UnderscoreLib, BackboneLib) {
 		"use strict";
 		
 		return Backbone.Model.extend({

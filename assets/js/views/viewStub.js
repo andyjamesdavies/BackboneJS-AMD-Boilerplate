@@ -1,9 +1,10 @@
+/*global $, _, Backbone*/
 define([
-		'jqueryLoader',	//Included by default, but needed in less instances now that views have cached '$el'
-		'underscoreLoader',
-		'backboneLoader',
+		'jquery',
+		'underscore',
+		'backbone'
 	],
-	function($, _, Backbone) {
+	function(JqueryLib, UnderscoreLib, BackboneLib) {
 		"use strict";
 
 		return Backbone.View.extend({
